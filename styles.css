@@ -50,7 +50,7 @@ pre {
   }
 }
 
-body, main, section, article {
+body, section, article {
   display: flex;
   flex-direction: column;
 }
@@ -72,11 +72,15 @@ header {
   background: #112;
 }
 
+main {
+  overflow: hidden scroll;
+}
+
 section {
   gap: 20px;
   overflow-y: scroll;
   width: 90%;
-  margin: auto;
+  margin: 0px auto 400px auto;
 }
 
 article {
